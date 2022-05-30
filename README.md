@@ -1,4 +1,4 @@
-# nscat-rs
+# nscat.rs
 
 nscat displays the content of a file replacing keys and passwords with Xs
 
