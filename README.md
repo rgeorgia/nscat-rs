@@ -9,7 +9,7 @@ nscat displays the content of a file replacing keys and passwords with Xs
 While troubleshooting problems on a server, often the sysadmin in sharing their screen. There often comes a time when someone says, "What's in that .env file?". If the SA cats the file, there is a chance that any secrets in that file will be revealed to anyone viewing the shared screen. It would be nice if there was a program that would 'cat' the file but remove any sensitive information. 
 
 ```bash
-nscat.py .env
+nscat .env
 
 ABC_DBHOST=db_server_rev.example.com:3337
 ABC_DBUSER=appuser
